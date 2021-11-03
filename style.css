@@ -1,0 +1,154 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #000000;
+  background: linear-gradient(#303030, #000000 45%, #f2f2f2 45%, #f2f2f2 100%);
+  font-family: "Ubuntu", sans-serif;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  display: inline-block;
+  box-shadow: 1px 1px 0px 0px rgb(155, 155, 155);
+}
+
+label {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.coors {
+  margin-bottom: 30px;
+}
+
+ul {
+  position: relative;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+}
+
+ul li {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin: 5px 0;
+  background: #f0f0f0;
+  box-shadow: 1px 1px 0px 0px rgb(155, 155, 155);
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #000;
+  box-shadow: 1px 1px 0px 0px rgb(155, 155, 155);
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button:enabled {
+  color: #000;
+  background-color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  padding: 12px 20px;
+  border: solid 2px;
+  border-color: #000;
+  cursor: pointer;
+}
+
+button:hover:enabled {
+  color: white;
+  transition: background 0.4s ease-in-out;
+  background-color: #000;
+}
+
+button:disabled {
+  background-color: #f1f1f1;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  padding: 12px 20px;
+  border: solid 2px;
+  color: gray;
+  border-color: gray;
+}
+
+button:hover:disabled {
+  color: gray;
+  border-color: gray;
+}
+
+#calc {
+  margin-bottom: 20px;
+}
+
+.title {
+  position: relative;
+  width: 70%;
+  border-bottom: 1px solid black;
+  background: #fff;
+  box-shadow: 2px 2px 0px 0px rgb(155, 155, 155);
+  padding: 40px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.title h1 {
+  font-size: 50px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+.title h5 {
+  font-size: 24px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.container {
+  position: relative;
+  width: 70%;
+  border: 1px solid black;
+  background: #fff;
+  box-shadow: 2px 2px 0px 0px rgb(155, 155, 155);
+  padding: 40px;
+}
+
+.signature {
+  position: relative;
+  width: 70%;
+  border: 1px solid black;
+  background: #fff;
+  box-shadow: 5px 5px 0px 0px black;
+  padding: 10px 40px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.signature h6 {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.signature h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+#result {
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 20px;
+}
